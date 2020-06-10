@@ -2,7 +2,7 @@ package novi.basics;
 
 import static novi.basics.Main.PLAYERINPUT;
 
-public class Game {
+public class TicTacToe {
     // atributen: (lijst) waaruit de game classe uit bestaat
     private final int drawCount;
     private final Field[] board;
@@ -15,7 +15,7 @@ public class Game {
     private Player activePlayer;
 
     // constructor: in de constructor methode krijgen alle attributen een waarde
-    public Game(Player player1, Player player2) {
+    public TicTacToe(Player player1, Player player2) {
 // speelbord opslaan (1 - 9)
         // uitleg: omdat we altijd met een bord starten met 9 getallen, kunnen we het Tic Tac Toe bord ook direct een waarde geven
         // zie demo project code voor de andere manier met de for loop
